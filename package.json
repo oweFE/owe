@@ -1,0 +1,19 @@
+{
+  "name": "owe",
+  "version": "1.0.0",
+  "description": "基于Vue.js的开源 UI 组件库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oweFE/owe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oweFE/owe/issues"
+  },
+  "homepage": "https://github.com/oweFE/owe#readme"
+}
