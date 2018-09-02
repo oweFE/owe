@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint $(git diff-index --cached HEAD --name-only --diff-filter ACMR | egrep '.js$')",
+    "dev": "webpack-dev-server --content-base test/ --open --inline --hot --compress --history-api-fallback --port 8081 --config build/webpack.dev.config.js",
     "precommit": "lint-staged"
   },
   "repository": {
@@ -42,6 +43,7 @@
     "lint-staged": "^7.2.0",
     "pre-commit": "^1.2.2",
     "prettier": "1.13.7",
-    "vue": "^2.5.16"
+    "vue": "^2.5.16",
+    "webpack": "^4.17.1"
   }
 }
